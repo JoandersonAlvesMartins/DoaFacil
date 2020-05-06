@@ -1,0 +1,52 @@
+/*dimenções do site*/
+body{
+    padding: 0,0;
+    margin: 0;
+    border: 0;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.2);
+}        
+
+.img-parallax {
+    width: 100%;
+    height: 600px;
+    
+    background-image: url(recife.jpg);
+    background-position: center top; /* imagem ao topo*/
+    background-repeat: no-repeat;/*imagem não repetientralisada */
+    background-size: cover; /*imagem vai alcançar todas as beradas do site*/
+}
+
+/* centralizando textos do carousel*/
+.carousel-item{text-align: center;}
+
+#txt-rotativo h3{ 
+    font-size: 60px;
+    text-align: center;
+    color: white;/*cor das letras*/
+    font-family: sans-serif;
+    display:none;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#txt-rotativo h3.active {
+    display:block;
+  }
+
+#txt-cronometro{
+    
+    padding-top: 70px;
+    font-size: 60px;
+    text-align: center;
+    color: white;/*cor das letras*/
+    font-family: sans-serif;
+  }
+
+  #time{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+  }
